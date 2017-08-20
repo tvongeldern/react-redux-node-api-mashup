@@ -1,0 +1,48 @@
+body {
+    font-family: sans-serif;
+}
+
+#react-root {
+    width: 100%;
+    text-align: center;
+}
+
+.form-container h2 {
+    color: #4d4d4d;
+}
+
+.form-container input {
+    font-size: 1.2em;
+    padding: 6px 8px;
+    width: 400px;
+    max-width: 92%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 4px;
+    border: 1px solid #666666;
+}
+
+.form-container button {
+    width: 200px;
+    max-width: 88%;
+    background-color: #009933;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    padding: 8px;
+    font-size: 1.2em;
+    display: block;
+    margin: 8px auto;
+    cursor: pointer;
+}
+
+.form-container button:focus {
+    outline: none;
+}
+
+.result-container img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 48px auto;
+}
